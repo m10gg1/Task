@@ -1,0 +1,112 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.about{
+    width:100%;
+    padding: 100px 0;
+    background-color: #191919;
+    
+    padding: 30px;
+
+}
+.about img{
+    height: auto;
+    width:430px;
+  position:relative;
+  align-items: center;
+  justify-content: space-around;
+  float:left;
+  bottom:400px;
+  margin-left:300px;
+ border-radius:10%;
+
+}
+
+.about .about-text{
+    
+   
+    width:550px;
+
+}
+.main{
+    width:90%;
+    max-width :500px;
+    margin:0 auto ;
+    margin-right: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color:white;
+    font-size:75px;
+    text-transform: capitalize;
+}
+.about-text h5{
+    color:white;
+    letter-spacing: 2px;
+    font-size:22px;
+    margin-bottom: 25px;
+    text-transform:capitalize;
+}
+.about-text span{
+    color:crimson;
+}
+.about-text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+@media all and (max-width:500){
+    .about-text{
+        margin-left:10%;
+        display:list-item;
+      
+    }
+    
+}
+/*My about ends here!*/
+.cont h1{
+    text-align: center;
+    font-size: 1em;
+}
+.cont ul{
+display: flex;
+flex-wrap: wrap;
+margin:1vmin;
+}
+.cont li{
+    height:40vh;
+    flex-grow: 1;
+    margin: 1vmin;
+    list-style: none;
+}
+.cont img{
+    max-height: 100%;
+    min-width:100%;
+    object-fit: cover;
+}
+.cont img:hover{
+    filter:blur(1px)grayscale(50%);
+}
+
+@media (max-aspect-ratio:1/1){
+    .cont li{
+        height: 50vh;
+
+    }
+
+    @media (max-height: 400px){
+        .cont li{
+            height: 80vh;
+        }
+}
+
+}
+
